@@ -136,16 +136,28 @@ a:link, .fab {
     #social-card {
         margin-top: 400px;
     }
+
+    img {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 640px) {
     #social-card {
         display: none;
     }
+
+    img {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 550px) {
     #contact-information {
         display: none;
+    }
+
+    img {
+        height: auto;
     }
 }
