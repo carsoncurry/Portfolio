@@ -3,12 +3,205 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Carson Curry | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/script.js"></script>
 </head>
 <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand text-light nav-link" href="https://carsoncurry.github.io/Updated-Portfolio/"><i>Carson Curry</i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about-link">About Me </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#class-projects">Selected Projects </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#professional-projects">Professional Projects </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- To-Top Button -->
+    <div onclick="topFunction()" id="myBtn" title="Back to Top"><i class="fas fa-chevron-circle-up"></i></div>
+
+    <div class="card" id="social-card">
+        <div class="card-header bg-dark text-light">
+            <h6>Contact / Follow Me</h6>
+        </div>
+        <div class="card-body rounded bg-light">
+            <p>Email: <a href="mailto:carsoncurry52@gmail.com"><i class="far fa-envelope"></i></a></p>
+            <br>
+            <p>Phone: <a href="tel:9139679154"><i class="fas fa-phone"></i></a></p>
+            <br>
+            <p>GitHub: <a href="https://github.com/carsoncurry" target="_blank"><i class="fab fa-github"></i></a></p>
+            <br>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/carson-curry-85824598/" target="_blank"><i class="fab fa-linkedin-in"></i></a></p>
+            <br>
+            <p>Instagram: <a href="https://www.instagram.com/carsoncurry52/" target="_blank"><i class="fab fa-instagram"></i></p>
+        </div>
+    </div>
+
+    <!-- About Me -->
+    <div class="main col-md-12">
+        <div class="container bg-transparent">
+            <div class="row col-md-12">
+                <a id="about-link"><h3>About Me</h3></a>
+            </div>
+        <div class="row col-md-12">
+            <p class="main-content">
+                Welcome to my professional portfolio page. I am a writer, designer and coder currently navigating the wide world of full-stack web design.  
+                On this page you can find a number of projects I have worked on as part of the KU Coding Bootcamp, as well as websites I have designed professionally. 
+                I will continually populate this page with new projects and apps, as well as build a larger body of writing, art and media projects on the main CWCOriginals page (coming soon).
     
+                <br>
+                <br>
+    
+                I attended the University of Kansas between 2008 and 2012, where I graduated with a B.A. in English, emphasizing in creative writing. 
+                I utilize my creative writing skills gained in my academic, personal and professional life in all aspects of my work and prioritize a clean design with well-developed content. 
+                If you are interested in contacting me regarding your website (either in management or design), please don't hesitate to contact me through email or phone or visit one of my social links listed below.  
+            </p>
+        </div>
+    </div>
+
+    <!-- Project Carousel  -->
+    <div class="container" id="project-carousel">
+        <h3 id="class-projects">Selected Projects</h3>
+        <div id="portfolio-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+                <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+                <li data-target="#portfolio-carousel" data-slide-to="3"></li>
+                <li data-target="#portfolio-carousel" data-slide-to="4"></li>
+            </ol>
+            <!-- Slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="view">
+                        <a href="https://rjfreeman77.github.io/project1/" target="_blank">
+                            <img class="d-block w-100" src="assets/images/Crop American Safari Screenshot.png" alt="American Safari">
+                            <div class="mask rgba-black-strong"></div>
+                        </a>
+                    </div>
+                    <div class="carousel-caption bg-dark rounded">
+                        <h3 class="h3-responsive">American Safari (Group Project)</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view">
+                        <a href="https://fathomless-eyrie-21415.herokuapp.com/" target="_blank">
+                            <img class="d-block w-100" src="assets/images/Crop Virtual Elephant Screenshot.png" alt="Virtual Elephant">
+                            <div class="mask rgba-black-strong"></div>
+                        </a>
+                    </div>
+                    <div class="carousel-caption bg-dark rounded">
+                        <h3 class="h3-responsive">Virtual Elephant (Group Project)</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view">
+                        <a href="https://shrouded-taiga-19249.herokuapp.com/survey" target="_blank">
+                            <img class="d-block w-100" src="assets/images/Crop SuperSquad Sorter Screenshot.png" alt="SuperSquad Sorter">
+                            <div class="mask rgba-black-strong"></div>
+                        </a>
+                    </div>
+                    <div class="carousel-caption bg-dark rounded">
+                        <h3 class="h3-responsive">SuperSquad Sorter</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view">
+                        <a href="https://carsoncurry.github.io/The-Great-Station/" target="_blank">
+                            <img class="d-block w-100" src="assets/images/Crop Great Station Screenshot.png" alt="The Great Station">
+                            <div class="mask rgba-black-strong"></div>
+                        </a>
+                    </div>
+                    <div class="carousel-caption bg-dark rounded">
+                        <h3 class="h3-responsive">The Great Station</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view">
+                        <a href="https://carsoncurry.github.io/TriviaGame/" target="_blank">
+                            <img class="d-block w-100" src="assets/images/Crop Jurassic Trivia Screenshot.png" alt="Jurassic Trivia">
+                            <div class="mask rgba-black-strong"></div>
+                        </a>
+                    </div>
+                    <div class="carousel-caption bg-dark rounded">
+                        <h3 class="h3-responsive">Jurassic Trivia</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <a class="carousel-control-prev" href="#portfolio-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#portfolio-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <br>
+
+        <!-- Professional Portfolio -->
+        <h3 id="professional-projects">Professional Projects</h3>
+        <div id="professional-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#professional-carousel" data-slide-to="0" class="active"></li>
+            </ol>
+            <!-- Slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="view">
+                        <a href="https://www.creeltrucking.com/" target="_blank">
+                            <img class="d-block w-100" src="assets/images/Creel.png" alt="Creel Trucking, Inc.">
+                            <div class="mask rgba-black-strong"></div>
+                        </a>
+                    </div>
+                    <div class="carousel-caption bg-dark rounded">
+                        <h3 class="h3-responsive">Creel Trucking, Inc.</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Controls to be added along with new Professional Projects -->
+            <!-- <a class="carousel-control-prev" href="professional-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#professional-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a> -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="span text-center text-light bg-dark">
+        <a id="contact-information">Copyright Carson Curry &copy; 2018</a>
+        <a href="https://github.com/carsoncurry" target="_blank" id="footer-link"><i class="fab fa-github"></i></a><a href="https://www.linkedin.com/in/carson-curry-85824598/" target="_blank" id="footer-link"><i class="fab fa-linkedin-in"></i></a><a href="mailto:carsoncurry52@gmail.com" id="footer-link"><i class="far fa-envelope"></i></a><a href="tel:9139679154" id="footer-link"><i class="fas fa-phone"></i></a><a href="https://www.instagram.com/carsoncurry52/" target="_blank" id="footer-link"><i class="fab fa-instagram"></i></a>
+    </footer>
+              
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
