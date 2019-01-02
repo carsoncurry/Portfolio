@@ -154,6 +154,10 @@ a:link, .fab {
     img {
         height: auto;
     }
+
+    .p-responsive {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -167,5 +171,9 @@ a:link, .fab {
 
     #profile-pic {
         width: auto;
+    }
+
+    .p-responsive {
+        display: none;
     }
 }
